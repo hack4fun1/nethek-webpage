@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    height: auto;
+    align-content: center;
+    
+}
+.navbar {
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    background-color: #240055;
+    color: #fff;
+    
+
+}
+
+.menu-block {
+    display: flex;
+    text-decoration: none;
+    
+    
+   
+}
+.menu-block a {
+    margin-right: 110px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    margin-left: 40px;
+}
+.slider-block {
+    display: block;
+    padding-top: 20px;
+    max-width: 100%;  
+}
+
+.slider-block img {
+   object-fit: cover;
+   width: 1200px;
+   height: 500px;
+
+}
